@@ -41,8 +41,6 @@ public class Q2178 {
             if (pnow.x == n && pnow.y == m)
                 break;
 
-            answer++;
-
             for (int i = 0; i < mx.length; i++) {
                 if (pnow.x + mx[i] <= n && pnow.y + my[i] <= m && pnow.x + mx[i] > 0 && pnow.y + my[i] > 0) {
                     if (map[pnow.x + mx[i]][pnow.y + my[i]] && visited[pnow.x + mx[i]][pnow.y + my[i]] == 0) {
