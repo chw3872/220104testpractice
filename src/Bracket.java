@@ -32,9 +32,10 @@ class Solution {
 
         return answer;
     }
-    public String fixBracket(String p, int i){
+
+    public String fixBracket(String p, int i) {
         String front = p.substring(0, i);
-        String back = p.substring(i+1);
-        
+        String back = p.substring(i + 1);
+        return "";
     }
 }
