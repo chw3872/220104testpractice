@@ -17,9 +17,6 @@ public class Q1913 {
         int nx = 0, ny = 0;
         map[0][0] = now--;
         while (now > 0){
-            int nextX = nx+dx[direction];
-            int nextY = ny+dy[direction];
-            if(nextX < 0 || nextX >= n || )
             if((nx + dx[direction] >= 0 && ny + dy[direction] >= 0) && (nx + dx[direction] < n && ny + dy[direction] < n)){
                 if(map[nx + dx[direction]][ny + dy[direction]] == 0) {
                     nx += dx[direction];
