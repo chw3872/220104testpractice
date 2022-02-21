@@ -8,7 +8,7 @@ public class Q14235 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n = Integer.parseInt(br.readLine());
-        PriorityQueue<Integer> presents = new PriorityQueue<Integer>(Collections.reverseOrder());
+        PriorityQueue<Integer> presents = new PriorityQueue<>(Collections.reverseOrder());
         StringBuilder sb = new StringBuilder();
         for(int i = 0; i < n; i++){
             StringTokenizer st = new StringTokenizer(br.readLine());
